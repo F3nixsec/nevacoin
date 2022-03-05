@@ -520,7 +520,7 @@ void ThreadStakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("nevacoin-miner");
+    RenameThread("twincoin-miner");
 
     CReserveKey reservekey(pwallet);
 
@@ -584,7 +584,7 @@ void static BitcoinMiner(CWallet *pwallet)
 {
     LogPrintf("NevacoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("nevacoin-miner");
+    RenameThread("twincoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

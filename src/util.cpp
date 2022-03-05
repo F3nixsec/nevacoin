@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "nevacoin";
+    const char* pszModule = "twincoin";
 #endif
     if (pex)
         return strprintf(
@@ -948,13 +948,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Nevacoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Nevacoin
-    // Mac: ~/Library/Application Support/Nevacoin
-    // Unix: ~/.nevacoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Twincoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Twincoin
+    // Mac: ~/Library/Application Support/Twincoin
+    // Unix: ~/.twincoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Nevacoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Twincoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Nevacoin";
+    return pathRet / "Twincoin";
 #else
     // Unix
-    return pathRet / ".nevacoin";
+    return pathRet / ".twincoin";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "nevacoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "twincoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }

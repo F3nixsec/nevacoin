@@ -1,9 +1,9 @@
-Building Nevacoin
+Building Twincoin
 
-See doc/readme-qt.rst for instructions on building Nevacoin QT,
+See doc/readme-qt.rst for instructions on building Twincoin QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Nevacoin.
+implementation of Twincoin.
 
 See doc/build-*.txt for instructions on building nevacoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Nevacoin.
+implementation of Twincoin.

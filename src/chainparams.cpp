@@ -64,7 +64,7 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "Happy 25th birthday Neva!!!";
+        const char* pszTimestamp = "";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -81,13 +81,13 @@ public:
         genesis.nNonce   = 367128;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000067865dd821b9f8b2dcdfb367c9d1344d3335fa6fc6d7940b026b88169a6"));
-        assert(genesis.hashMerkleRoot == uint256("0x5783b7fc8f9fca30e77cf3333549ffed2f229a23fbbad4ab79cd2d3c15841af5"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
-        vSeeds.push_back(CDNSSeedData("nevacoin.net", "n1.nevacoin.net"));
-        vSeeds.push_back(CDNSSeedData("nevacoin.net", "n2.nevacoin.net"));
-        vSeeds.push_back(CDNSSeedData("nevacoin.net", "n3.nevacoin.net"));
-        vSeeds.push_back(CDNSSeedData("nevacoin.net", "n4.nevacoin.net"));
+        vSeeds.push_back(CDNSSeedData("twincoins.io", "satoshi.twincoins.io"));
+        vSeeds.push_back(CDNSSeedData("twincoins.io", "mx.twincoins.io"));
+        vSeeds.push_back(CDNSSeedData("twincoins.io", "volcano.twincoins.io"));
+        vSeeds.push_back(CDNSSeedData("twincoins.io", "bitcoincity.twincoins.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -141,8 +141,8 @@ public:
         assert(hashGenesisBlock == uint256("0x005a03c21a8fd3cec753cd5d8bcb0b8b18071ee65f8c77af13e671c1bce771f4"));
 
         vFixedSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("nevacoin.net", "test1.nevacoin.net"));
-        vSeeds.push_back(CDNSSeedData("nevacoin.net", "test2.nevacoin.net"));
+        vSeeds.push_back(CDNSSeedData("twincoins.io", "test1.twincoins.io"));
+        vSeeds.push_back(CDNSSeedData("twincoins.io", "test2.twincoins.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);

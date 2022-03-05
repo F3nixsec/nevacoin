@@ -5,19 +5,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Nevacoin</source>
-        <translation>About Nevacoin</translation>
+        <source>About Twincoin</source>
+        <translation>About Twincoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Nevacoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Nevacoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;Twincoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Twincoin&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Nevacoin developers</source>
+Copyright © 2014 The Twincoin developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Nevacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>These are your Nevacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
+        <source>These are your Twincoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>These are your Twincoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Nevacoin address</source>
-        <translation>Sign a message to prove you own a Nevacoin address</translation>
+        <source>Sign a message to prove you own a Twincoin address</source>
+        <translation>Sign a message to prove you own a Twincoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Nevacoin address</source>
-        <translation>Verify a message to ensure it was signed with a specified Nevacoin address</translation>
+        <source>Verify a message to ensure it was signed with a specified Twincoin address</source>
+        <translation>Verify a message to ensure it was signed with a specified Twincoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Nevacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Nevacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
+        <source>Twincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Twincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Nevacoin</source>
-        <translation>Show information about Nevacoin</translation>
+        <source>Show information about Twincoin</source>
+        <translation>Show information about Twincoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Nevacoin address</source>
-        <translation>Send coins to a Nevacoin address</translation>
+        <source>Send coins to a Twincoin address</source>
+        <translation>Send coins to a Twincoin address</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Nevacoin</source>
-        <translation>Modify configuration options for Nevacoin</translation>
+        <source>Modify configuration options for Twincoin</source>
+        <translation>Modify configuration options for Twincoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>Nevacoin</source>
-        <translation>Nevacoin</translation>
+        <source>Twincoin</source>
+        <translation>Twincoin</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Nevacoin</source>
-        <translation>&amp;About Nevacoin</translation>
+        <source>&amp;About Twincoin</source>
+        <translation>&amp;About Twincoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,15 +500,15 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Nevacoin client</source>
-        <translation>Nevacoin client</translation>
+        <source>Twincoin client</source>
+        <translation>Twincoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Nevacoin network</source>
+        <source>%n active connection(s) to Twincoin network</source>
         <translation>
-            <numerusform>%n active connection to Nevacoin network</numerusform>
-            <numerusform>%n active connections to Nevacoin network</numerusform>
+            <numerusform>%n active connection to Twincoin network</numerusform>
+            <numerusform>%n active connections to Twincoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -603,8 +603,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Nevacoin address or malformed URI parameters.</source>
-        <translation>URI can not be parsed! This can be caused by an invalid Nevacoin address or malformed URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Twincoin address or malformed URI parameters.</source>
+        <translation>URI can not be parsed! This can be caused by an invalid Twincoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -744,8 +744,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Nevacoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Nevacoin can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Twincoin can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Twincoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1064,8 +1064,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Nevacoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Nevacoin address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Twincoin address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid Twincoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1083,8 +1083,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Nevacoin-Qt</source>
-        <translation>Nevacoin-Qt</translation>
+        <source>Twincoin-Qt</source>
+        <translation>Twincoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1156,13 +1156,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Nevacoin after logging in to the system.</source>
-        <translation>Automatically start Nevacoin after logging in to the system.</translation>
+        <source>Automatically start Twincoin after logging in to the system.</source>
+        <translation>Automatically start Twincoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Nevacoin on system login</source>
-        <translation>&amp;Start Nevacoin on system login</translation>
+        <source>&amp;Start Twincoin on system login</source>
+        <translation>&amp;Start Twincoin on system login</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1171,8 +1171,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Nevacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Nevacoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Twincoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Twincoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1201,7 +1201,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the Nevacoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Twincoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1246,8 +1246,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Nevacoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Nevacoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Twincoin.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Twincoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1313,8 +1313,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Nevacoin.</source>
-        <translation>This setting will take effect after restarting Nevacoin.</translation>
+        <source>This setting will take effect after restarting Twincoin.</source>
+        <translation>This setting will take effect after restarting Twincoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1332,8 +1332,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Nevacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Nevacoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Twincoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Twincoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1406,7 +1406,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start nevacoin: click-to-pay handler</source>
+        <source>Cannot start twincoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1574,8 +1574,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Nevacoin-Qt help message to get a list with possible Nevacoin command-line options.</source>
-        <translation>Show the Nevacoin-Qt help message to get a list with possible Nevacoin command-line options.</translation>
+        <source>Show the Twincoin-Qt help message to get a list with possible Twincoin command-line options.</source>
+        <translation>Show the Twincoin-Qt help message to get a list with possible Twincoin command-line options.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1594,13 +1594,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Nevacoin - Debug window</source>
-        <translation>Nevacoin - Debug window</translation>
+        <source>Twincoin - Debug window</source>
+        <translation>Twincoin - Debug window</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Nevacoin Core</source>
-        <translation>Nevacoin Core</translation>
+        <source>Twincoin Core</source>
+        <translation>Twincoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1609,8 +1609,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Nevacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Nevacoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Twincoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Twincoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1619,8 +1619,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Nevacoin RPC console.</source>
-        <translation>Welcome to the Nevacoin RPC console.</translation>
+        <source>Welcome to the Twincoin RPC console.</source>
+        <translation>Welcome to the Twincoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1800,8 +1800,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-174"/>
-        <source>Enter a Nevacoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a Nevacoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Twincoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a Twincoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1900,7 +1900,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Nevacoin address</source>
+        <source>WARNING: Invalid Twincoin address</source>
         <translation></translation>
     </message>
     <message>
@@ -1974,8 +1974,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Nevacoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a Nevacoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Twincoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a Twincoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2035,8 +2035,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Nevacoin address</source>
-        <translation>Sign the message to prove you own this Nevacoin address</translation>
+        <source>Sign the message to prove you own this Twincoin address</source>
+        <translation>Sign the message to prove you own this Twincoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2067,8 +2067,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Nevacoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Nevacoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Twincoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Twincoin address</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2078,8 +2078,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Nevacoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Enter a Nevacoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Twincoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Enter a Twincoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2088,8 +2088,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Nevacoin signature</source>
-        <translation>Enter Nevacoin signature</translation>
+        <source>Enter Twincoin signature</source>
+        <translation>Enter Twincoin signature</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2679,8 +2679,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Nevacoin version</source>
-        <translation>Nevacoin version</translation>
+        <source>Twincoin version</source>
+        <translation>Twincoin version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2709,8 +2709,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: nevacoin.conf)</source>
-        <translation>Specify configuration file (default: nevacoin.conf)</translation>
+        <source>Specify configuration file (default: twincoin.conf)</source>
+        <translation>Specify configuration file (default: twincoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2738,7 +2738,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Nevacoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2844,8 +2844,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nevacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-104"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Nevacoin will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Nevacoin will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Twincoin will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Twincoin will not work properly.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3150,7 +3150,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Nevacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. Nevacoin is shutting down.</source>
+        <source>Initialization sanity check failed. Twincoin is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3210,13 +3210,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Nevacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Nevacoin</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Nevacoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Twincoin</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Twincoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Nevacoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart Nevacoin to complete</translation>
+        <source>Wallet needed to be rewritten: restart Twincoin to complete</source>
+        <translation>Wallet needed to be rewritten: restart Twincoin to complete</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3275,8 +3275,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Nevacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+126"/>
-        <source>Unable to bind to %s on this computer. Nevacoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Nevacoin is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Twincoin is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Twincoin is probably already running.</translation>
     </message>
     <message>
         <location line="-102"/>
@@ -3315,7 +3315,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Nevacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Nevacoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Twincoin is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -21,7 +21,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Nevacoin cannot be compiled without assertions."
+# error "Twincoin cannot be compiled without assertions."
 #endif
 
 //
@@ -77,7 +77,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Nevacoin Signed Message:\n";
+const string strMessageMagic = "Twincoin Signed Message:\n";
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -2253,7 +2253,7 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
 }
 
 #ifdef ENABLE_WALLET
-// nevacoin: attempt to generate suitable proof-of-stake
+// twincoin: attempt to generate suitable proof-of-stake
 bool CBlock::SignBlock(CWallet& wallet, int64_t nFees)
 {
     // if we are trying to sign
@@ -2603,7 +2603,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("nevacoin-loadblk");
+    RenameThread("twincoin-loadblk");
 
     CImportingNow imp;
 

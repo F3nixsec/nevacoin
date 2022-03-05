@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = nevacoin-qt
+TARGET = twincoin-qt
 VERSION = 1.5.0.0
 INCLUDEPATH += src src/json src/qt
 QT += network
@@ -408,7 +408,7 @@ macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
 macx:ICON = src/qt/res/icons/bitcoin.icns
-macx:TARGET = "Nevacoin-Qt"
+macx:TARGET = "twincoin-Qt"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

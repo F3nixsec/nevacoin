@@ -7,23 +7,23 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Nevacoin-Qt</string>
+	<string>Twincoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Nevacoin-Qt</string>
+	<string>Twincoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.nevacoin.Nevacoin-Qt</string>
+	<string>co.twincoin.Twincoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.nevacoin.NevacoinPayment</string>
+            <string>co.twincoin.NevacoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>nevacoin</string>
+              <string>twincoin</string>
             </array>
           </dict>
         </array>

@@ -1,5 +1,5 @@
 src/*.exe
-src/nevacoin
+src/twincoin
 src/nevacoind
 src/test_nevacoin
 src/build.h
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.nevacoin
+.twincoin
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-nevacoin-qt
+twincoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

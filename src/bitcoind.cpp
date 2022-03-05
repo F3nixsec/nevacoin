@@ -50,7 +50,7 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Nevacoin version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Twincoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
                   "  nevacoind [options]                     " + "\n" +
                   "  nevacoind [options] <command> [params]  " + _("Send command to -server or nevacoind") + "\n" +
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "nevacoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "twincoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)
