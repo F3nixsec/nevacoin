@@ -52,8 +52,8 @@ public:
         pchMessageStart[1] = 0x83;
         pchMessageStart[2] = 0xe6;
         pchMessageStart[3] = 0x32;
-        nDefaultPort = 7391;
-        nRPCPort = 3791;
+        nDefaultPort = 7777;
+        nRPCPort = 8056;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -97,7 +97,7 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        nLastPOWBlock = 1086321;
+        nLastPOWBlock = 300000000;
     }
 
     virtual const CBlock& GenesisBlock() const { return genesis; }
@@ -138,7 +138,7 @@ public:
         genesis.nNonce = 61;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x005a03c21a8fd3cec753cd5d8bcb0b8b18071ee65f8c77af13e671c1bce771f4"));
+        assert(hashGenesisBlock == uint256("0x"));
 
         vFixedSeeds.clear();
         vSeeds.push_back(CDNSSeedData("twincoins.io", "test1.twincoins.io"));
