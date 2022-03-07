@@ -80,8 +80,8 @@ public:
         genesis.nNonce   = 367128;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x000007f0db3384e2e98b6904ebd55c412b76a688628f18e8af19e5dcf75a984b"));
+        assert(genesis.hashMerkleRoot == uint256("0x68033db0f8c8a73524e37b2c10d3188b01ba3dac99082e96fd482e49183ff709"));
 
         vSeeds.push_back(CDNSSeedData("twincoins.io", "satoshi.twincoins.io"));
         vSeeds.push_back(CDNSSeedData("twincoins.io", "mx.twincoins.io"));
