@@ -81,10 +81,10 @@ public:
 
         //debug
         genesis.print();
-        printf("genesis.GetHash() == %s\n", block.GetHash().ToString().c_str());
-        printf("genesis.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
-        printf("genesis.nTime = %u \n", block.nTime);
-        printf("genesis.nNonce = %u \n", block.nNonce);
+        printf("genesis.GetHash() == %s\n", genesis.GetHash().ToString().c_str());
+        printf("genesis.hashMerkleRoot == %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        printf("genesis.nTime = %u \n", genesis.nTime);
+        printf("genesis.nNonce = %u \n", genesis.nNonce);
                 
 
         hashGenesisBlock = genesis.GetHash();
