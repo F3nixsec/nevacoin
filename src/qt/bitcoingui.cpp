@@ -429,10 +429,10 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
         {
             setWindowTitle(windowTitle() + QString(" ") + tr("[testnet]"));
 #ifndef Q_OS_MAC
-            qApp->setWindowIcon(QIcon(":icons/nevacoin_testnet"));
-            setWindowIcon(QIcon(":icons/nevacoin_testnet"));
+            qApp->setWindowIcon(QIcon(":icons/twincoin_testnet"));
+            setWindowIcon(QIcon(":icons/twincoin_testnet"));
 #else
-            MacDockIconHandler::instance()->setIcon(QIcon(":icons/nevacoin_testnet"));
+            MacDockIconHandler::instance()->setIcon(QIcon(":icons/twincoin_testnet"));
 #endif
             if(trayIcon)
             {

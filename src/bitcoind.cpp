@@ -52,10 +52,10 @@ bool AppInit(int argc, char* argv[])
             // First part of help message is specific to bitcoind / RPC client
             std::string strUsage = _("Twincoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  nevacoind [options]                     " + "\n" +
-                  "  nevacoind [options] <command> [params]  " + _("Send command to -server or nevacoind") + "\n" +
-                  "  nevacoind [options] help                " + _("List commands") + "\n" +
-                  "  nevacoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  twincoind [options]                     " + "\n" +
+                  "  twincoind [options] <command> [params]  " + _("Send command to -server or twincoind") + "\n" +
+                  "  twincoind [options] help                " + _("List commands") + "\n" +
+                  "  twincoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 

@@ -2669,8 +2669,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or nevacoind</source>
-        <translation>-server か nevacoindへコマンドを送る。</translation>
+        <source>Send command to -server or twincoind</source>
+        <translation>-server か twincoindへコマンドを送る。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2694,8 +2694,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: nevacoind.pid)</source>
-        <translation>pid ファイルを特定する (デフォルト: nevacoind.pid)</translation>
+        <source>Specify pid file (default: twincoind.pid)</source>
+        <translation>pid ファイルを特定する (デフォルト: twincoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2712,7 +2712,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

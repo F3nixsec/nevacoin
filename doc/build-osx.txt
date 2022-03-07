@@ -7,7 +7,7 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-Mac OS X Nevacoind build instructions
+Mac OS X twincoind build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
@@ -41,14 +41,14 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build nevacoind:
+4.  Now you should be able to build twincoind:
 
 cd twincoin/src
 make -f makefile.osx
 
 Run:
-  ./nevacoind --help  # for a list of command-line options.
+  ./twincoind --help  # for a list of command-line options.
 Run
-  ./nevacoind -daemon # to start the twincoin daemon.
+  ./twincoind -daemon # to start the twincoin daemon.
 Run
-  ./nevacoind help # When the daemon is running, to get a list of RPC commands
+  ./twincoind help # When the daemon is running, to get a list of RPC commands

@@ -2675,8 +2675,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or nevacoind</source>
-        <translation>-sunucu veya nevacoind&apos;ye komut gönder</translation>
+        <source>Send command to -server or twincoind</source>
+        <translation>-sunucu veya twincoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2700,7 +2700,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: nevacoind.pid)</source>
+        <source>Specify pid file (default: twincoind.pid)</source>
         <translation>pid dosyasını belirt (varsayılan: twincoin.pid)</translation>
     </message>
     <message>
@@ -2718,7 +2718,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2729,7 +2729,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
         <translation>%s, konfigürasyon dosyasında bir rpcpassword belirlemelisiniz: 
 %s
 Aşağıdaki rastgele şifreyi kullanmanız tavsiye edilir:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (bu şifreyi hatırlamanız gerekmemektedir)
 Kullanıcı adı ve şifre aynı OLMAMALIDIR.

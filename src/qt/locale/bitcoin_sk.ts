@@ -2674,8 +2674,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or nevacoind</source>
-        <translation>Pošli príkaz na -server alebo nevacoind</translation>
+        <source>Send command to -server or twincoind</source>
+        <translation>Pošli príkaz na -server alebo twincoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2699,8 +2699,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: nevacoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: nevacoind.pid)</translation>
+        <source>Specify pid file (default: twincoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: twincoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2717,7 +2717,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2728,7 +2728,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.

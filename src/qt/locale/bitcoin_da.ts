@@ -2670,8 +2670,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or nevacoind</source>
-        <translation>Send kommando til-server eller nevacoind</translation>
+        <source>Send command to -server or twincoind</source>
+        <translation>Send kommando til-server eller twincoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2695,8 +2695,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: nevacoind.pid)</source>
-        <translation>Angiv pid fil (standard: nevacoind.pid)</translation>
+        <source>Specify pid file (default: twincoind.pid)</source>
+        <translation>Angiv pid fil (standard: twincoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2713,7 +2713,7 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

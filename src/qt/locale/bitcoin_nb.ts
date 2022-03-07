@@ -1238,7 +1238,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av nevacoins.</translation>
+        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av twincoins.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1661,7 +1661,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send Nevacoins</translation>
+        <translation>Send twincoins</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2658,7 +2658,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or nevacoind</source>
+        <source>Send command to -server or twincoind</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2683,7 +2683,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: nevacoind.pid)</source>
+        <source>Specify pid file (default: twincoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2701,7 +2701,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

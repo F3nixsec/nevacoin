@@ -1,7 +1,7 @@
 src/*.exe
 src/twincoin
-src/nevacoind
-src/test_nevacoin
+src/twincoind
+src/test_twincoin
 src/build.h
 .*.swp
 *.*~*

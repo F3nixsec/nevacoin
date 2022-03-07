@@ -81,4 +81,4 @@ Twincoin
 DOS prompt:
 cd \twincoin\src
 mingw32-make -f makefile.mingw
-strip nevacoind.exe
+strip twincoind.exe

@@ -582,7 +582,7 @@ int64_t nHPSTimerStart = 0;
 
 void static BitcoinMiner(CWallet *pwallet)
 {
-    LogPrintf("NevacoinMiner started\n");
+    LogPrintf("twincoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("twincoin-miner");
 
@@ -612,7 +612,7 @@ void static BitcoinMiner(CWallet *pwallet)
         
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        LogPrintf("Running NevacoinMiner with %llu transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running twincoinMiner with %llu transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
         
         uint256 hashTarget = CBigNum().SetCompact(pblock->nBits).getuint256();
@@ -681,7 +681,7 @@ void static BitcoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        LogPrintf("NevacoinMiner terminated\n");
+        LogPrintf("twincoinMiner terminated\n");
         throw;
     }
 }

@@ -4,12 +4,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Twincoin</source>
-        <translation>O Nevacoinu</translation>
+        <translation>O twincoinu</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Twincoin&lt;/b&gt; version</source>
-        <translation>Verze &lt;b&gt;Nevacoinu&lt;/b&gt; </translation>
+        <translation>Verze &lt;b&gt;twincoinu&lt;/b&gt; </translation>
     </message>
     <message>
         <location line="+41"/>
@@ -353,7 +353,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Twincoin</source>
-        <translation>Zobraz informace a Nevacoinu</translation>
+        <translation>Zobraz informace a twincoinu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -449,7 +449,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+193"/>
         <source>&amp;About Twincoin</source>
-        <translation>&amp;O Nevacoinu</translation>
+        <translation>&amp;O twincoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1240,7 +1240,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Twincoin.</source>
-        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Nevacoinu.</translation>
+        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu twincoinu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1307,7 +1307,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Twincoin.</source>
-        <translation>Nastavení se projeví až po restartu Nevacoinu.</translation>
+        <translation>Nastavení se projeví až po restartu twincoinu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1593,7 +1593,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+25"/>
         <source>Twincoin Core</source>
-        <translation>Jádro Nevacoinu</translation>
+        <translation>Jádro twincoinu</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1603,7 +1603,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+7"/>
         <source>Open the Twincoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři logovací soubor Nevacoinu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
+        <translation>Otevři logovací soubor twincoinu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2661,7 +2661,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
         <source>Twincoin version</source>
-        <translation>Verze Nevacoinu</translation>
+        <translation>Verze twincoinu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2670,8 +2670,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or nevacoind</source>
-        <translation>Pošli příkaz na -server nebo nevacoind</translation>
+        <source>Send command to -server or twincoind</source>
+        <translation>Pošli příkaz na -server nebo twincoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2695,8 +2695,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: nevacoind.pid)</source>
-        <translation>Urči pid soubor (výchozí: nevacoind.pid)</translation>
+        <source>Specify pid file (default: twincoind.pid)</source>
+        <translation>Urči pid soubor (výchozí: twincoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2713,7 +2713,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3193,7 +3193,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="+4"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Twincoin</source>
-        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Nevacoinu</translation>
+        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi twincoinu</translation>
     </message>
     <message>
         <location line="+1"/>

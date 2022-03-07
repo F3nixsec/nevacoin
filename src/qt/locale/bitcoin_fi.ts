@@ -4,7 +4,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Twincoin</source>
-        <translation>Tietoa Nevacoinista</translation>
+        <translation>Tietoa twincoinista</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -359,7 +359,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+4"/>
         <source>Show information about Twincoin</source>
-        <translation>Näytä tietoja Nevacoinista</translation>
+        <translation>Näytä tietoja twincoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -455,7 +455,7 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+193"/>
         <source>&amp;About Twincoin</source>
-        <translation>&amp;Tietoa Nevacoinista</translation>
+        <translation>&amp;Tietoa twincoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1573,7 +1573,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+7"/>
         <source>Show the Twincoin-Qt help message to get a list with possible Twincoin command-line options.</source>
-        <translation>Näytä Twincoin-Qt:n avustusohje saadaksesi listan käytettävistä Nevacoinin komentokehotteen määritteistä.</translation>
+        <translation>Näytä Twincoin-Qt:n avustusohje saadaksesi listan käytettävistä twincoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1598,7 +1598,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+25"/>
         <source>Twincoin Core</source>
-        <translation>Nevacoinin ydin</translation>
+        <translation>twincoinin ydin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1618,7 +1618,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
         <source>Welcome to the Twincoin RPC console.</source>
-        <translation>Tervetuloa Nevacoinin RPC-konsoliin.</translation>
+        <translation>Tervetuloa twincoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1678,7 +1678,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä Nevacoineja</translation>
+        <translation>Lähetä twincoineja</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -2666,7 +2666,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
         <source>Twincoin version</source>
-        <translation>Nevacoinin versio</translation>
+        <translation>twincoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2675,8 +2675,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or nevacoind</source>
-        <translation>Syötä komento kohteeseen -server tai nevacoind</translation>
+        <source>Send command to -server or twincoind</source>
+        <translation>Syötä komento kohteeseen -server tai twincoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2700,7 +2700,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: nevacoind.pid)</source>
+        <source>Specify pid file (default: twincoind.pid)</source>
         <translation>Määritä prosessitiedosto (oletus: twincoin.pid)</translation>
     </message>
     <message>
@@ -2718,7 +2718,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2728,7 +2728,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
-On suositeltavaa, että käytät seuraavaa arvottua salasanaa: rpcuser=nevacoinrpc
+On suositeltavaa, että käytät seuraavaa arvottua salasanaa: rpcuser=twincoinrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa) Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.

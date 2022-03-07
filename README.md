@@ -1,4 +1,4 @@
-NEVACOIN
+twincoin
 ======
 
 Twincoin is a proof-of-stake cryptocurrency with a focus on high performance, longevity and adoption services.
@@ -47,9 +47,9 @@ Testnet RPC port: 13791
 
 ## Boostrap files / chain state
 
-* NevaCoin blockchain snapshots/chain states/bootstrap.dat (pCloud: http://pc.cd/jjo )
+* twincoin blockchain snapshots/chain states/bootstrap.dat (pCloud: http://pc.cd/jjo )
 
-* NevaCoin blockchain snapshots/chain states/bootstrap.dat (MS OneDrive https://1drv.ms/u/s!AklKAv1s6c88gQJCvxJLqUwOSBzE?e=xXftI8 )
+* twincoin blockchain snapshots/chain states/bootstrap.dat (MS OneDrive https://1drv.ms/u/s!AklKAv1s6c88gQJCvxJLqUwOSBzE?e=xXftI8 )
 
 ## Developer contacts
 

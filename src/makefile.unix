@@ -151,7 +151,7 @@ ifeq (${USE_WALLET}, 1)
         obj/walletdb.o
 endif
 
-all: nevacoind
+all: twincoind
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -192,11 +192,11 @@ obj/%.o: %.c
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-nevacoind: $(OBJS:obj/%=obj/%)
+twincoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f nevacoind
+	-rm -f twincoind
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/build.h

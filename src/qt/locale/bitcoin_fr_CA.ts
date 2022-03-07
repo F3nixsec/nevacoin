@@ -227,7 +227,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>ATTENTION : Si vous cryptez votre portefeuille et perdez votre passphrase, vous ne pourrez plus accéder à vos Nevacoins</translation>
+        <translation>ATTENTION : Si vous cryptez votre portefeuille et perdez votre passphrase, vous ne pourrez plus accéder à vos twincoins</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2670,8 +2670,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or nevacoind</source>
-        <translation>Envoyer commande à -server ou nevacoind</translation>
+        <source>Send command to -server or twincoind</source>
+        <translation>Envoyer commande à -server ou twincoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2695,8 +2695,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: nevacoind.pid)</source>
-        <translation>Spécifier le fichier pid (defaut: nevacoind.pid)
+        <source>Specify pid file (default: twincoind.pid)</source>
+        <translation>Spécifier le fichier pid (defaut: twincoind.pid)
 </translation>
     </message>
     <message>
@@ -2714,7 +2714,7 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=nevacoinrpc
+rpcuser=twincoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

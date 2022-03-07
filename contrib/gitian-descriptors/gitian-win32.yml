@@ -59,10 +59,10 @@ script: |
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build nevacoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=twincoin"
-  i586-mingw32msvc-strip nevacoind.exe
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build twincoind.exe USE_UPNP=1 DEBUGFLAGS="-frandom-seed=twincoin"
+  i586-mingw32msvc-strip twincoind.exe
   mkdir $OUTDIR/daemon
-  cp nevacoind.exe $OUTDIR/daemon
+  cp twincoind.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis

@@ -20,7 +20,7 @@
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.twincoin.NevacoinPayment</string>
+            <string>co.twincoin.twincoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>twincoin</string>

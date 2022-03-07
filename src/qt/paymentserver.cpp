@@ -32,7 +32,7 @@ const QString BITCOIN_IPC_PREFIX("twincoin:");
 //
 static QString ipcServerName()
 {
-    QString name("NevacoinQt");
+    QString name("twincoinQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path

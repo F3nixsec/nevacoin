@@ -163,7 +163,7 @@ std::string HelpMessage()
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
     strUsage += "  -conf=<file>           " + _("Specify configuration file (default: twincoin.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: nevacoind.pid)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: twincoind.pid)") + "\n";
     strUsage += " -gen " + _("Generate coins (default: 0)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n";
