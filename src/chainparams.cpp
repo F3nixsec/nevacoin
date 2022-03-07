@@ -79,6 +79,23 @@ public:
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 367128;
 
+        if (true  && (genesis.GetHash() != hashGenesisBlock)) {
+
+                    // This will figure out a valid hash and Nonce if you're
+                // creating a different genesis block:
+                    uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
+                    while (genesis.GetHash() > hashTarget)
+                       {
+                           ++genesis.nNonce;
+                           if (genesis.nNonce == 0)
+                           {
+                               printf("NONCE WRAPPED, incrementing time");
+                               ++genesis.nTime;
+                           }
+                       }
+        }
+
+
         //debug
         genesis.print();
         printf("genesis.GetHash() == %s\n", genesis.GetHash().ToString().c_str());
