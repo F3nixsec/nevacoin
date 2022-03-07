@@ -4,7 +4,6 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "assert.h"
-
 #include "chainparams.h"
 #include "main.h"
 #include "util.h"

@@ -6,7 +6,6 @@
 #include <openssl/ecdsa.h>
 #include <openssl/rand.h>
 #include <openssl/obj_mac.h>
-
 #include "key.h"
 
 
