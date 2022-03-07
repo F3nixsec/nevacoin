@@ -97,7 +97,7 @@ public:
 
 
         //debug
-        genesis.print();
+        
         printf("genesis.GetHash() == %s\n", genesis.GetHash().ToString().c_str());
         printf("genesis.hashMerkleRoot == %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("genesis.nTime = %u \n", genesis.nTime);
