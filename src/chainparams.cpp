@@ -79,8 +79,6 @@ public:
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 367128;
 
-        if (true  && (block.GetHash() != hashGenesisBlock)) {
-
         //debug
         block.print();
         printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
