@@ -97,16 +97,16 @@ public:
 
 
         //debug
-        
+
         printf("genesis.GetHash() == %s\n", genesis.GetHash().ToString().c_str());
         printf("genesis.hashMerkleRoot == %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("genesis.nTime = %u \n", genesis.nTime);
         printf("genesis.nNonce = %u \n", genesis.nNonce);
-                
+
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000067865dd821b9f8b2dcdfb367c9d1344d3335fa6fc6d7940b026b88169a6"));
-        assert(genesis.hashMerkleRoot == uint256("0x5783b7fc8f9fca30e77cf3333549ffed2f229a23fbbad4ab79cd2d3c15841af5"));
+        assert(hashGenesisBlock == uint256("0x00000e31ea56ab68064e7887e65b0a7ae6aad34eefb1960b7fdd984be716fc46"));
+        assert(genesis.hashMerkleRoot == uint256("0x89b764e4ebfc0bf277dc56ce73e18023d18c7a8ab51e24fda12327d05b225319"));
 
         vSeeds.push_back(CDNSSeedData("twincoins.io", "satoshi.twincoins.io"));
         vSeeds.push_back(CDNSSeedData("twincoins.io", "mx.twincoins.io"));
@@ -162,7 +162,7 @@ public:
         genesis.nNonce = 61;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x00000e31ea56ab68064e7887e65b0a7ae6aad34eefb1960b7fdd984be716fc46"));
 
         vFixedSeeds.clear();
         vSeeds.push_back(CDNSSeedData("twincoins.io", "test1.twincoins.io"));
