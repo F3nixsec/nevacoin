@@ -80,15 +80,15 @@ public:
         genesis.nNonce   = 367128;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000007f0db3384e2e98b6904ebd55c412b76a688628f18e8af19e5dcf75a984b"));
-        assert(genesis.hashMerkleRoot == uint256("0x68033db0f8c8a73524e37b2c10d3188b01ba3dac99082e96fd482e49183ff709"));
+        assert(hashGenesisBlock == uint256("0x0000067865dd821b9f8b2dcdfb367c9d1344d3335fa6fc6d7940b026b88169a6"));
+        assert(genesis.hashMerkleRoot == uint256("0x5783b7fc8f9fca30e77cf3333549ffed2f229a23fbbad4ab79cd2d3c15841af5"));
 
         vSeeds.push_back(CDNSSeedData("twincoins.io", "satoshi.twincoins.io"));
         vSeeds.push_back(CDNSSeedData("twincoins.io", "mx.twincoins.io"));
         vSeeds.push_back(CDNSSeedData("twincoins.io", "volcano.twincoins.io"));
         vSeeds.push_back(CDNSSeedData("twincoins.io", "bitcoincity.twincoins.io"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,53);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,66);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,177);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
