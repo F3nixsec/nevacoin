@@ -8,7 +8,9 @@
 #include "miner.h"
 #include "kernel.h"
 #include "hash.h"
-
+#include <chrono>
+#include <boost/thread.hpp>
+#include <boost/tuple/tuple.hpp>
 
 using namespace std;
 
@@ -16,9 +18,6 @@ using namespace std;
 //
 // BitcoinMiner
 //
-int64_t nReserveBalance = 0;
-static unsigned int nMaxStakeSearchInterval = 60;
-uint64_t nStakeInputsMapSize = 0;
 
 
 
@@ -65,10 +64,9 @@ class COrphan
 {
 public:
     CTransaction* ptx;
-    std::set<uint256> setDependsOn;
+    set<uint256> setDependsOn;
     double dPriority;
     double dFeePerKb;
-
 
     COrphan(CTransaction* ptxIn)
     {
@@ -83,8 +81,7 @@ uint64_t nLastBlockSize = 0;
 int64_t nLastCoinStakeSearchInterval = 0;
 
 // We want to sort transactions by priority and fee, so:
-typedef std::tuple<double, double, CTransaction*> TxPriority;
-
+typedef boost::tuple<double, double, CTransaction*> TxPriority;
 class TxPriorityCompare
 {
     bool byFee;
@@ -93,47 +90,43 @@ public:
     bool operator()(const TxPriority& a, const TxPriority& b)
     {
         if (byFee)
-       {
-            if (std::get<1>(a) == std::get<1>(b))
-                return std::get<0>(a) < std::get<0>(b);
-            return std::get<1>(a) < std::get<1>(b);
+        {
+            if (a.get<1>() == b.get<1>())
+                return a.get<0>() < b.get<0>();
+            return a.get<1>() < b.get<1>();
         }
         else
         {
-            if (std::get<0>(a) == std::get<0>(b))
-                return std::get<1>(a) < std::get<1>(b);
-            return std::get<0>(a) < std::get<0>(b);
+            if (a.get<0>() == b.get<0>())
+                return a.get<1>() < b.get<1>();
+            return a.get<0>() < b.get<0>();
         }
     }
 };
 
 // CreateNewBlock: create new block (without proof-of-work/proof-of-stake)
-std::shared_ptr<CBlock> CreateNewBlock(CWallet* pwallet, CTransaction *txCoinStake)
-
+CBlock* CreateNewBlock(CReserveKey& reservekey, bool fProofOfStake, int64_t* pFees)
 {
-        bool fProofOfStake = txCoinStake != nullptr;
-
     // Create new block
-    std::shared_ptr<CBlock> pblock(new CBlock());
+    auto_ptr<CBlock> pblock(new CBlock());
     if (!pblock.get())
-        return nullptr;
+        return NULL;
 
     CBlockIndex* pindexPrev = pindexBest;
     int nHeight = pindexPrev->nHeight + 1;
 
     // Create coinbase tx
-    CTransaction txCoinBase;
-    txCoinBase.vin.resize(1);
-    txCoinBase.vin[0].prevout.SetNull();
-    txCoinBase.vout.resize(1);
+    CTransaction txNew;
+    txNew.vin.resize(1);
+    txNew.vin[0].prevout.SetNull();
+    txNew.vout.resize(1);
 
     if (!fProofOfStake)
     {
-             CReserveKey reservekey(pwallet);
-        txCoinBase.vout[0].scriptPubKey.SetDestination(reservekey.GetReservedKey().GetID());
-
-         // Add our coinbase tx as first transaction
-        pblock->vtx.push_back(txCoinBase);
+        CPubKey pubkey;
+        if (!reservekey.GetReservedKey(pubkey))
+            return NULL;
+        txNew.vout[0].scriptPubKey.SetDestination(pubkey.GetID());
     }
     else
     {
