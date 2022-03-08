@@ -97,13 +97,7 @@ public:
         }
 
 
-        //debug
-
-        printf("genesis.GetHash() == %s\n", genesis.GetHash().ToString().c_str());
-        printf("genesis.hashMerkleRoot == %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("genesis.nTime = %u \n", genesis.nTime);
-        printf("genesis.nNonce = %u \n", genesis.nNonce);
-
+  
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x000006345c672195793963cf767ee014ff209b17f8726e31591711c454e6b25c"));
