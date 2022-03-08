@@ -145,7 +145,6 @@ Value getmininginfo(const Array& params, bool fHelp)
     weight.push_back(Pair("combined",  (uint64_t)nWeight));
     obj.push_back(Pair("stakeweight", weight));
     obj.push_back(Pair("stakeinterest",    (uint64_t)COIN_YEAR_REWARD));
-    
     obj.push_back(Pair("testnet",       TestNet()));
     return obj;
 }
@@ -180,7 +179,7 @@ Value getstakinginfo(const Array& params, bool fHelp)
 
     obj.push_back(Pair("weight", (uint64_t)nWeight));
     obj.push_back(Pair("netstakeweight", (uint64_t)nNetworkWeight));
-
+    obj.push_back(Pair("stakeinterest",    (uint64_t)COIN_YEAR_REWARD));
     obj.push_back(Pair("expectedtime", nExpectedTime));
 
     return obj;
