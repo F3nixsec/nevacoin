@@ -3208,7 +3208,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="-16"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Adresa -proxy nevalidă: &apos;%s&apos;</translation>
+        <translation>Adresa -proxy TWClidă: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -3228,7 +3228,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="-22"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Suma nevalidă pentru -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>Suma TWClidă pentru -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+59"/>
@@ -3238,7 +3238,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="+5"/>
         <source>Invalid amount</source>
-        <translation>Sumă nevalidă</translation>
+        <translation>Sumă TWClidă</translation>
     </message>
     <message>
         <location line="+1"/>

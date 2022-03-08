@@ -3156,7 +3156,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="+36"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Nevar pievienoties pie %s šajā datorā (pievienošanās atgrieza kļūdu %d, %s)</translation>
+        <translation>TWCr pievienoties pie %s šajā datorā (pievienošanās atgrieza kļūdu %d, %s)</translation>
     </message>
     <message>
         <location line="-131"/>
@@ -3171,7 +3171,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="-10"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Nevar ielādēt wallet.dat: maciņš bojāts</translation>
+        <translation>TWCr ielādēt wallet.dat: maciņš bojāts</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -3201,12 +3201,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="+3"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Nevar uzmeklēt -bind adresi: &apos;%s&apos;</translation>
+        <translation>TWCr uzmeklēt -bind adresi: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Nevar atrisināt -externalip adresi: &apos;%s&apos;</translation>
+        <translation>TWCr atrisināt -externalip adresi: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="-22"/>
@@ -3296,12 +3296,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="+8"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Nevar maciņa formātu padarīt vecāku</translation>
+        <translation>TWCr maciņa formātu padarīt vecāku</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot write default address</source>
-        <translation>Nevar ierakstīt adresi pēc noklusēšanas</translation>
+        <translation>TWCr ierakstīt adresi pēc noklusēšanas</translation>
     </message>
     <message>
         <location line="+1"/>

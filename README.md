@@ -21,7 +21,7 @@ Difficulty retarget:    Every block
 
 Block time:             91 seconds
 
-Block reward:           5 NEVA  (both PoW and PoS have static rewards)
+Block reward:           5 TWC  (both PoW and PoS have static rewards)
 
 Coinbase maturity:      25 blocks
 
@@ -35,7 +35,7 @@ Minimum PoS age:        4 hours
 
 Maximum PoS age:        no max (PoS 2.0)
 
-Max coins:              26280000 NEVAs
+Max coins:              26280000 TWCs
 
 Network info:
 
@@ -55,7 +55,7 @@ Testnet RPC port: 13791
 
 Responsible disclosure and security contact: security@twincoins.io
 
-Exchanges and listing contact (digital currency exchange representatives should take note Neva is an open source network with no premine/instamine or any type of crowdfunding and no listing fee budget is awailable): listings@twincoins.io
+Exchanges and listing contact (digital currency exchange representatives should take note TWC is an open source network with no premine/instamine or any type of crowdfunding and no listing fee budget is awailable): listings@twincoins.io
 
 Developers contact: dev@twincoins.io
 
@@ -67,6 +67,6 @@ Facebook: https://www.facebook.com/twincoin/
 
 Twitter: https://twitter.com/twincoin
 
-Telegram: https://t.me/neva_coin
+Telegram: https://t.me/TWC_coin
 
 Reddit: https://www.reddit.com/r/BlockmasterSi

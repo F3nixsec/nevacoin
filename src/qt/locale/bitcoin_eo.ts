@@ -2072,7 +2072,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+85"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>La adreso, kiun vi enmetis, estas nevalida.</translation>
+        <translation>La adreso, kiun vi enmetis, estas TWClida.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -3191,7 +3191,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="-16"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Nevalid adreso -proxy: &apos;%s&apos;</translation>
+        <translation>TWClid adreso -proxy: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -3211,7 +3211,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="-22"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Nevalida sumo por -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation>TWClida sumo por -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+59"/>
@@ -3221,7 +3221,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Twincoin Alert&quot; admin@foo
     <message>
         <location line="+5"/>
         <source>Invalid amount</source>
-        <translation>Nevalida sumo</translation>
+        <translation>TWClida sumo</translation>
     </message>
     <message>
         <location line="+1"/>

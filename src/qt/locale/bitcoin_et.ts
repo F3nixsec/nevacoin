@@ -1031,7 +1031,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Väljaminevate aadresside muutmine</translation>
+        <translation>VäljamiTWCte aadresside muutmine</translation>
     </message>
     <message>
         <location line="+76"/>
