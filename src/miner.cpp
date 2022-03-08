@@ -8,6 +8,7 @@
 #include "miner.h"
 #include "kernel.h"
 #include "hash.h"
+#include <chrono>
 
 using namespace std;
 
@@ -15,6 +16,9 @@ using namespace std;
 //
 // BitcoinMiner
 //
+
+
+
 
 extern unsigned int nMinerSleep;
 
@@ -74,7 +78,7 @@ public:
 uint64_t nLastBlockTx = 0;
 uint64_t nLastBlockSize = 0;
 int64_t nLastCoinStakeSearchInterval = 0;
- 
+
 // We want to sort transactions by priority and fee, so:
 typedef boost::tuple<double, double, CTransaction*> TxPriority;
 class TxPriorityCompare
@@ -591,12 +595,12 @@ void static BitcoinMiner(CWallet *pwallet)
     unsigned int nExtraNonce = 0;
 
     try { while (true) {
-        
+
         // Busy-wait for the network to come online so we don't waste time mining
         // on an obsolete chain. In regtest mode we expect to fly solo.
         while (vNodes.empty())
             MilliSleep(1000);
-        
+
 
         //
         // Create new block
@@ -609,12 +613,12 @@ void static BitcoinMiner(CWallet *pwallet)
         if (!pblocktemplate.get())
             return;
 	CBlock *pblock = pblocktemplate.get();
-        
+
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
         LogPrintf("Running twincoinMiner with %llu transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
-        
+
         uint256 hashTarget = CBigNum().SetCompact(pblock->nBits).getuint256();
 	int64_t nStart = GetTime();
 	uint256 hash;
@@ -623,7 +627,7 @@ void static BitcoinMiner(CWallet *pwallet)
         {
             unsigned int nHashesDone = 0;
             hash = pblock->GetHash();
-            
+
             if (hash <= hashTarget)
             {
                 // Found a solution
@@ -631,8 +635,8 @@ void static BitcoinMiner(CWallet *pwallet)
                 CheckWork(pblock, *pwallet, reservekey);
                 SetThreadPriority(THREAD_PRIORITY_LOWEST);
                 break;
-            }       
-	    ++pblock->nNonce;    
+            }
+	    ++pblock->nNonce;
 
             // Meter hashes/sec
             static int64_t nHashCounter;
@@ -671,7 +675,7 @@ void static BitcoinMiner(CWallet *pwallet)
 
             // Update nTime every few seconds
  	    pblock->UpdateTime(pindexPrev);
-            
+
             if (TestNet())
             {
                 // Changing pblock->nTime can change work required on testnet:
@@ -690,7 +694,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet, int nThreads)
 {
     static boost::thread_group* minerThreads = NULL;
     nThreads = boost::thread::hardware_concurrency();
-    
+
     if (minerThreads != NULL)
     {
 	minerThreads->interrupt_all();
