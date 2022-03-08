@@ -162,8 +162,8 @@ public:
         genesis.nTime    = 1646715635;
         genesis.nNonce = 61;
 
-        hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000006345c672195793963cf767ee014ff209b17f8726e31591711c454e6b25c"));
+        hashGenesisBlockTestNet = genesis.GetHash();
+        assert(hashGenesisBlockTestNet == uint256("0x000006345c672195793963cf767ee014ff209b17f8726e31591711c454e6b25c"));
 
         vFixedSeeds.clear();
         vSeeds.push_back(CDNSSeedData("twincoins.io", "test1.twincoins.io"));
