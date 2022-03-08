@@ -128,13 +128,14 @@ std::shared_ptr<CBlock> CreateNewBlock(CWallet* pwallet, CTransaction *txCoinSta
     txCoinBase.vout.resize(1);
 
     if (!fProofOfStake)
-    {
-             CReserveKey reservekey(pwallet);
-        txCoinBase.vout[0].scriptPubKey.SetDestination(reservekey.GetReservedKey().GetID());
-
-         // Add our coinbase tx as first transaction
-        pblock->vtx.push_back(txCoinBase);
+     
+      {
+        CPubKey pubkey;
+        if (!reservekey.GetReservedKey(pubkey))
+            return NULL;
+        txNew.vout[0].scriptPubKey.SetDestination(pubkey.GetID());
     }
+
     else
     {
         // Height first in coinbase required for block.version=2
