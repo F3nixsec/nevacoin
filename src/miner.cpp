@@ -9,6 +9,8 @@
 #include "kernel.h"
 #include "hash.h"
 #include <chrono>
+#include <boost/thread.hpp>
+#include <boost/tuple/tuple.hpp>
 
 using namespace std;
 
