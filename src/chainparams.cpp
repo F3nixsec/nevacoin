@@ -70,14 +70,17 @@ public:
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1457344680, vin, vout, 0);
+        CTransaction txNew(1, 1646715635, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1457344680;
+        genesis.nTime    = 1646715635;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 367128;
+        nDefaultPort = 17391;
+        nRPCPort = 13791;
+        strDataDir = "twin";
 
         if (true  && (genesis.GetHash() != hashGenesisBlock)) {
 
@@ -105,8 +108,8 @@ public:
 
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000e31ea56ab68064e7887e65b0a7ae6aad34eefb1960b7fdd984be716fc46"));
-        assert(genesis.hashMerkleRoot == uint256("0x89b764e4ebfc0bf277dc56ce73e18023d18c7a8ab51e24fda12327d05b225319"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
         vSeeds.push_back(CDNSSeedData("twincoins.io", "satoshi.twincoins.io"));
         vSeeds.push_back(CDNSSeedData("twincoins.io", "mx.twincoins.io"));
