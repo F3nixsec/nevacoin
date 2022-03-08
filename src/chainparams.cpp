@@ -138,9 +138,9 @@ protected:
 static CMainParams mainParams;
 
 
-//
-// Testnet
-//
+//          //
+// Testnet //
+//        //
 
 class CTestNetParams : public CMainParams {
 public:
@@ -161,9 +161,8 @@ public:
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nTime    = 1457214001;
         genesis.nNonce = 61;
-
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x005a03c21a8fd3cec753cd5d8bcb0b8b18071ee65f8c77af13e671c1bce771f4"));
+
 
         vFixedSeeds.clear();
         vSeeds.push_back(CDNSSeedData("twincoins.io", "test1.twincoins.io"));
