@@ -8,11 +8,8 @@
 
 #include "main.h"
 #include "wallet.h"
-#include <stdint.h>
-#include <memory>
-#include "kernel.h"
-#include "boost/multi_index_container.hpp"
-#include "boost/multi_index/ordered_index.hpp"
+
+
 /** Run the miner threads */
 void GenerateBitcoins(bool fGenerate, CWallet* pwallet, int nThreads);
 
