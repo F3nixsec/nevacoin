@@ -108,8 +108,8 @@ public:
 
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x000006345c672195793963cf767ee014ff209b17f8726e31591711c454e6b25c"));
+        assert(genesis.hashMerkleRoot == uint256("0x0355f83969619fe1300622095f5635b0143a47a7dfa11575f38532c37d8e1589"));
 
         vSeeds.push_back(CDNSSeedData("twincoins.io", "satoshi.twincoins.io"));
         vSeeds.push_back(CDNSSeedData("twincoins.io", "mx.twincoins.io"));
