@@ -17,13 +17,7 @@ using namespace std;
 // BitcoinMiner
 //
 
-int main()
 
-{
-    auto now_boost = boost::chrono::steady_clock::now();
-    auto now_std = convert_timepoint_same_clock<
-        boost::chrono::steady_clock, std::chrono::steady_clock>(now_boost);
-}
 
 extern unsigned int nMinerSleep;
 
