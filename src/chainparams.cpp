@@ -78,9 +78,7 @@ public:
         genesis.nTime    = 1646715635;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 367128;
-        nDefaultPort = 17391;
-        nRPCPort = 13791;
-        strDataDir = "twin";
+
 
         if (true  && (genesis.GetHash() != hashGenesisBlock)) {
 
@@ -161,11 +159,11 @@ public:
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nTime    = 1457214001;
+        genesis.nTime    = 1646715635;
         genesis.nNonce = 61;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000e31ea56ab68064e7887e65b0a7ae6aad34eefb1960b7fdd984be716fc46"));
+        assert(hashGenesisBlock == uint256("0x000006345c672195793963cf767ee014ff209b17f8726e31591711c454e6b25c"));
 
         vFixedSeeds.clear();
         vSeeds.push_back(CDNSSeedData("twincoins.io", "test1.twincoins.io"));
