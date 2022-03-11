@@ -34,6 +34,12 @@ using namespace boost;
 using namespace boost::asio;
 using namespace json_spirit;
 
+#if BOOST_VERSION >= 107000
+#define IO_SERVICE(s) ((boost::asio::io_context&)(s).get_executor().context())
+#else
+#define IO_SERVICE(s) ((s).get_io_service())
+#endif
+
 static std::string strRPCUserColonPass;
 
 // These are created by StartRPCThreads, destroyed in StopRPCThreads
