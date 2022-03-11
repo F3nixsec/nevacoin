@@ -22,12 +22,6 @@
 #include "json/json_spirit_utils.h"
 #include "json/json_spirit_writer_template.h"
 
-// Boost Support for 1.70+
-#if BOOST_VERSION >= 107000
-#define GetIOService(s) ((boost::asio::io_context&)(s).get_executor().context())
-#else
-#define GetIOService(s) ((s).get_io_service())
-#endif
 
 
 // HTTP status codes
